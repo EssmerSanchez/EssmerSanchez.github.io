@@ -41,7 +41,7 @@ repo_trophies:
 # will use title and url fields
 # Take a look to https://github.com/jekyll/jekyll-feed for more customization
 
-rss_icon: true
+rss_icon: false
 
 # -----------------------------------------------------------------------------
 # Layout
@@ -49,8 +49,8 @@ rss_icon: true
 
 navbar_fixed: true
 footer_fixed: true
-search_enabled: true
-socials_in_search: true
+search_enabled: false
+socials_in_search: false
 
 # Dimensions
 max_width: 930px
@@ -131,7 +131,7 @@ bing_site_verification: # out your bing-site-verification ID (Bing Webmaster)
 # -----------------------------------------------------------------------------
 
 blog_name: info # blog_name will be displayed in your blog page
-blog_description: a simple whitespace theme for academics
+blog_description: blog updates and notes
 permalink: /blog/:year/:title/
 lsi: false # produce an index for related posts
 
@@ -165,13 +165,13 @@ disqus_shortname: al-folio # put your disqus shortname
 # External sources.
 # If you have blog posts published on medium.com or other external sources,
 # you can display them in your blog by adding a link to the RSS feed.
-external_sources:
-  - name: medium.com
-    rss_url: https://medium.com/@al-folio/feed
-  - name: Google Blog
+external_sources: #rename _plugins external-posts.rb.disabled to activate (remove .disabled)
+  - name: # medium.com
+    rss_url: # https://medium.com/@al-folio/feed
+  - name: # Google Blog
     posts:
-      - url: https://blog.google/technology/ai/google-gemini-update-flash-ai-assistant-io-2024/
-        published_date: 2024-05-14
+      - url: # https://blog.google/technology/ai/google-gemini-update-flash-ai-assistant-io-2024/
+        published_date: # 2024-05-14
 
 # -----------------------------------------------------------------------------
 # Collections
@@ -184,7 +184,7 @@ collections:
     output: true
     permalink: /news/:path/
   projects:
-    output: true
+    output: false
     permalink: /projects/:path/
 
 announcements:
