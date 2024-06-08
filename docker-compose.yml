@@ -1,4 +1,3 @@
-version: "3"
 # this file uses prebuilt image in dockerhub
 services:
   jekyll:
@@ -11,3 +10,5 @@ services:
       - .:/srv/jekyll
     environment:
       - JEKYLL_ENV=development
+      - TZ=America/New_York
+    user: "1000:1000"

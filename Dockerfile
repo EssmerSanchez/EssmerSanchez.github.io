@@ -9,7 +9,9 @@ RUN apt-get update -y && apt-get install -y --no-install-recommends \
     build-essential \
     zlib1g-dev \
     jupyter-nbconvert \
-    inotify-tools procps && \
+    inotify-tools \
+    procps \
+    tzdata && \
     apt-get clean && rm -rf /var/lib/apt/lists/* /var/cache/apt/archives/*
 
 
@@ -20,9 +22,13 @@ RUN sed -i '/en_US.UTF-8/s/^# //g' /etc/locale.gen && \
 ENV LANG=en_US.UTF-8 \
     LANGUAGE=en_US:en \
     LC_ALL=en_US.UTF-8 \
-    JEKYLL_ENV=production
+    JEKYLL_ENV=production \
+    TZ=America/New_York
 
-RUN mkdir /srv/jekyll
+RUN ln -snf /usr/share/zoneinfo/$TZ /etc/localtime && echo $TZ > /etc/timezone
+
+
+RUN mkdir -p /srv/jekyll && chown -R 1000:1000 /srv/jekyll
 
 ADD Gemfile.lock /srv/jekyll
 ADD Gemfile /srv/jekyll
@@ -37,5 +43,7 @@ RUN bundle install --no-cache
 EXPOSE 8080
 
 COPY bin/entry_point.sh /tmp/entry_point.sh
+
+USER 1000:1000
 
 CMD ["/tmp/entry_point.sh"]
