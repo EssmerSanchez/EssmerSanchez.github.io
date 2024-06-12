@@ -6,6 +6,7 @@ title: info
 description: Upcoming class schedule will be posted here.
 nav: true
 nav_order: 3
+display_categories: [A,B]
 horizontal: false
 ---
 
