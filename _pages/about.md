@@ -19,89 +19,32 @@ selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 ---
 
-<html>
-<head>
-<style>
-.tabs {
-  overflow: hidden;
-  background: #f1f1f1;
-  font-family: Arial;
-}
-.tabs a {
-  float: left;
-  display: block;
-  color: #b509ac;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-  transition: 0.3s;
-}
-.tabs a:hover {
-  background-color: #ddd;
-}
-.tabcontent {
-  display: none;
-  padding: 6px 12px;
-  border-top: none;
-}
-</style>
-</head>
-<body>
+<a name="top-section"></a>
 
-<div class="tabs">
-  <a href="#" class="tablink" onclick="openSection(event, 'English')">English</a>
-  <a href="#" class="tablink" onclick="openSection(event, 'Español')">Español</a>
-  <a href="#" class="tablink" onclick="openSection(event, 'Polski')">Polski</a>
-</div>
+--[English](#english-section)
+--[Español](#spanish-section)
+--[Polski](#polish-section)
+--[News/Noticias](#news-section)
+--[Latest/Lo último](#news-section)
+--[Services/Servicios]({{ site.baseurl }}/blog/2024/my-services/)
 
-<div id="English" class="tabcontent">
-  <h3>My Story</h3>
-  <p> Hello, my name is Essmer Sanchez. I am of Mexican decent with a mixed family from Poland, Ecuador and Colombia. I grew up in Queens surrounded by a variety of cultures that have given me a glimps of what the world has to offer.</p>
-  <p> I hold a degree in Computer Science and a certification as an Adult English instructor from The Literacy Assistance Center of New York.Currently I am part of a construction company startup as a Client Relations and Technology Administrator.</p>
-  <p>My goal is to work in the tech industry. As I make progress on my journey, I want to give back to my community by teaching English and technology classes, offering school tutoring, and providing PC repair services.</p>
-  <p> I would love to connect with you! Feel free to contact me through email or business phone number listed above.</p>
-</div>
+<a name="english-section"></a>
 
-<div id="Español" class="tabcontent">
-  <h3>Mi historia</h3>
-  <p> Hola, mi nombre es Essmer Sanchez. Soy de ascendencia mexicana con una familia mixta de Polonia, Ecuador y Colombia. Crecí en Queens, rodeado de una variedad de culturas que me han dado un vistazo de lo que el mundo tiene para ofrecer.</p>
-  <p>Tengo un título en Ciencias de la Computación y una certificación como instructor de inglés para adultos del Literacy Assistance Center de Nueva York. Actualmente, soy parte de una empresa emergente de construcción como Administrador de Relaciones con Clientes y Tecnología.</p>
-  <p>Mi objetivo es trabajar en la industria tecnológica. A medida que avanzo en mi camino, quiero retribuir a mi comunidad enseñando clases de inglés y tecnología, ofreciendo tutoría escolar y proporcionando servicios de reparación de computadoras.</p>
-  <p>¡Me encantaría conectarme contigo! No dudes en contactarme a través del correo electrónico o del número de teléfono comercial que aparece arriba.</p>
-</div>
+#### My Story
 
-<div id="Polski" class="tabcontent">
-  <h3>Moja historia</h3>
-  <p>Cześć, nazywam się Essmer Sanchez. Jestem pochodzenia meksykańskiego, a moja rodzina jest mieszanką narodowości z Polski, Ekwadoru i Kolumbii. Dorastałem w Queens, otoczony różnorodnymi kulturami, które dały mi wgląd w to, co świat ma do zaoferowania.</p>
-  <p>Mam dyplom z Informatyki oraz certyfikat instruktora języka angielskiego dla dorosłych z Literacy Assistance Center w Nowym Jorku. Obecnie jestem częścią startupu budowlanego jako Administrator Relacji z Klientami i Technologii.</p>
-  <p>Moim celem jest praca w branży technologicznej. W miarę postępów na mojej drodze, chcę odwdzięczyć się mojej społeczności poprzez nauczanie języka angielskiego i technologii, oferowanie korepetycji szkolnych oraz świadczenie usług naprawy komputerów.</p>
-  <p>Chciałbym się z Tobą skontaktować! Nie wahaj się skontaktować ze mną przez e-mail lub numer telefonu biznesowego podany powyżej.</p>
-</div>
+Hello, my name is Essmer Sanchez. I am of Mexican descent with a diverse family background from Poland, Ecuador, and Colombia, and I grew up in Queens, surrounded by various cultures that broadened my worldview. I hold a degree in Computer Science and a certification as an Adult English instructor from The Literacy Assistance Center of New York. Currently, I work at a construction startup as a Client Relations and Technology Administrator. My goal is to work in the tech industry and, as I progress, give back to my community by teaching English and technology classes, offering school tutoring, and providing PC repair services. I would love to connect with you! Feel free to contact me via email or the business phone number listed above.
+[Back To Main](#top-section)
 
-<script>
-function openSection(evt, sectionName) {
-  var section = document.getElementById(sectionName);
-  var tablinks = document.getElementsByClassName("tablink");
-  for (var i = 0; i < tablinks.length; i++) {
-    tablinks[i].className = tablinks[i].className.replace(" active", "");
-  }
-  if (section.style.display === "block") {
-    section.style.display = "none";
-  } else {
-    var tabcontent = document.getElementsByClassName("tabcontent");
-    for (var i = 0; i < tabcontent.length; i++) {
-      tabcontent[i].style.display = "none";
-    }
-    section.style.display = "block";
-    evt.currentTarget.className += " active";
-  }
-}
-</script>
+<a name="spanish-section"></a>
 
-</body>
-</html>
+#### Mi Historia
+Hola, mi nombre es Essmer Sanchez. Soy de ascendencia mexicana con una familia diversa de Polonia, Ecuador y Colombia, y crecí en Queens, rodeado de varias culturas que ampliaron mi visión del mundo. Tengo un título en Ciencias de la Computación y una certificación como instructor de inglés para adultos del Literacy Assistance Center de Nueva York. Actualmente, trabajo en una empresa emergente de construcción como Administrador de Relaciones con Clientes y Tecnología. Mi objetivo es trabajar en la industria tecnológica y, a medida que avanzo, retribuir a mi comunidad enseñando clases de inglés y tecnología, ofreciendo tutoría escolar y proporcionando servicios de reparación de computadoras. ¡Me encantaría conectarme contigo! No dudes en contactarme por correo electrónico o al número de teléfono comercial que aparece arriba.
+[Volver Al Inicio](#top-section)
 
+<a name="polish-section"></a>
 
+#### Moja historia
+Cześć, nazywam się Essmer Sanchez. Jestem pochodzenia meksykańskiego, a moja rodzina jest mieszanką narodowości z Polski, Ekwadoru i Kolumbii. Dorastałem w Queens, otoczony różnorodnymi kulturami, które poszerzyły mój światopogląd. Mam dyplom z Informatyki oraz certyfikat instruktora języka angielskiego dla dorosłych z Literacy Assistance Center w Nowym Jorku. Obecnie pracuję w startupie budowlanym jako Administrator Relacji z Klientami i Technologii. Moim celem jest praca w branży technologicznej, a w miarę postępów chciałbym odwdzięczyć się swojej społeczności poprzez nauczanie języka angielskiego i technologii, oferowanie korepetycji szkolnych oraz świadczenie usług naprawy komputerów. Chciałbym się z Tobą skontaktować! Nie wahaj się skontaktować ze mną przez e-mail lub numer telefonu biznesowego podany powyżej.
+[Powrót Do Głównego](#top-section)
 
-<i class="fa-regular fa-heart"></i>
-
+<a name="news-section"></a>
