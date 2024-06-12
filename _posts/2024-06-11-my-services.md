@@ -5,13 +5,13 @@ date: 2024-06-11 21:33
 description: Learn about the type of services I offer. Conozca el tipo de servicios que ofrezco.
 ---
 
-#### ENGLISH CLASSES
+#### ENGLISH CLASSES / CLASES DE INGLÉS
 - T.E.S.O.L Certified Adult English Instructor.
 - Private or group classes.
 - Online or In-person. 
   - I will hold online classes throughout the year. Keep updated by filling out the Google Contact form.
 
-#### COMPUTER CLASSES
+#### COMPUTER CLASSES / CLASES DE COMPUTACIÓN
 - Bachelors degree in Computer Science.
 - Technology classes.
   - Customized individual or group instruction.
@@ -22,7 +22,7 @@ description: Learn about the type of services I offer. Conozca el tipo de servic
     - Chat, communication.
 - Online or In-person.
 
-### TUTORING
+### TUTORING / TUTORÍA
 - All grade-level tutoring.
   - Elementary school to College.
   - Math
@@ -33,20 +33,11 @@ description: Learn about the type of services I offer. Conozca el tipo de servic
 - Homework Help.
 - Online or In-Person
 
-#### PC REPAIR
-- Hardware Diagnostics and Repair
-  - Replacing faulty components.
-- Software Troubleshooting:
-  - Resolving software conflicts and crashes.
-  - Reinstalling or repairing operating systems.
+#### PC REPAIR / REPARACIÓN DE COMPUTADORAS
+- Hardware Diagnostics and Repair.
+- Software Troubleshooting.
 - Virus and Malware Removal.
-  - Scanning and removing viruses, malware and other malicious software.
-  - Installing and configuring antivirus software.
 - Network Setup and Troubleshooting.
-  - Setting up and configuring home networks.
-  - Resolving connectivity issues.
 - Custom PC Builds.
-  - Designing and assembling custom-built PC's based on user requirements.
 - Data Recovery.
-  - Retrieving data from damaged or corrupted storage devices.
 - AND MUCH MORE!
