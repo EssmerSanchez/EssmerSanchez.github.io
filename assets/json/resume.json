@@ -3,8 +3,8 @@
     "name": "Essmer Sanchez",
     "label": "",
     "image": "",
-    "email": "sanchez.e9699@gmail.com",
-    "phone": "(718) 791-3656",
+    "email": "Sanchez.Essmer@gmail.com",
+    "phone": "(347) 313-8530",
     "url": "https://essmersanchez.github.io",
     "summary": "Muti-skilled student of life with a desire to continue to learn",
     "location": {
@@ -22,6 +22,28 @@
       }
     ]
   },
+  "languages": [
+    {
+      "language": "English",
+      "fluency": "Native speaker",
+      "icon": ""
+    },
+    {
+      "language": "Spanish",
+      "fluency": "Fluent",
+      "icon": ""
+    },
+    {
+      "language": "Polish",
+      "fluency": "Beginner",
+      "icon": ""
+    },
+    {
+      "language": "Greek",
+      "fluency": "Beginner",
+      "icon": ""
+    }
+  ],
   "work": [
     {
       "name": "Santicraft Home Improvement Corp",
@@ -117,28 +139,6 @@
         "Multitasking",
         "Stress Management"
       ]
-    }
-  ],
-  "languages": [
-    {
-      "language": "English",
-      "fluency": "Native speaker",
-      "icon": ""
-    },
-    {
-      "language": "Spanish",
-      "fluency": "Fluent",
-      "icon": ""
-    },
-    {
-      "language": "Polish",
-      "fluency": "Beginner",
-      "icon": ""
-    },
-    {
-      "language": "Greek",
-      "fluency": "Beginner",
-      "icon": ""
     }
   ],
   "interests": [

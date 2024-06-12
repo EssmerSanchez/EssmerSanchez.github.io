@@ -6,9 +6,9 @@ title: blank # the website title (if blank, full name will be used instead)
 first_name: Essmer
 middle_name:
 last_name: Sanchez
-email: sanchez.e9699@gmail.com
+email: Sanchez.Essmer@gmail.com
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
-  A simple, whitespace theme for academics. Based on [*folio](https://github.com/bogoli/-folio) design.
+  Hello, I am Essmer Sanchez. Welcome to my page! Bienvenidos a mi página!, Witaj na mojej stronie!, Καλώς ήρθατε στη σελιδα μου!
 footer_text: >
 #  Powered by <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
 #  Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
@@ -130,8 +130,8 @@ bing_site_verification: # out your bing-site-verification ID (Bing Webmaster)
 # Blog
 # -----------------------------------------------------------------------------
 
-blog_name: info # blog_name will be displayed in your blog page
-blog_description: blog updates and notes
+blog_name: e.s  # blog_name will be displayed in your blog page
+blog_description: What's Happening? ¿Qué Pasa? Co się dzieje?
 permalink: /blog/:year/:title/
 lsi: false # produce an index for related posts
 
@@ -184,7 +184,7 @@ collections:
     output: true
     permalink: /news/:path/
   projects:
-    output: false
+    output: true
     permalink: /projects/:path/
 
 announcements:
@@ -292,8 +292,8 @@ jekyll-archives:
     tag: "/blog/tag/:name/"
     category: "/blog/category/:name/"
 
-display_tags: ["formatting", "images", "links", "math", "code"] # these tags will be displayed on the front page of your blog
-display_categories: ["blockquotes"] # these categories will be displayed on the front page of your blog
+display_tags: ["Class1", "Class2", "", ""] # these tags will be displayed on the front page of your blog
+display_categories: [] # these categories will be displayed on the front page of your blog
 
 # -----------------------------------------------------------------------------
 # Jekyll Scholar
