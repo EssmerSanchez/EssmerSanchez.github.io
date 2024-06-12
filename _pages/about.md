@@ -101,7 +101,3 @@ function openSection(evt, sectionName) {
 </body>
 </html>
 
-
-
-<i class="fa-regular fa-heart"></i>
-
