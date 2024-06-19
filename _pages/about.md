@@ -1,9 +1,9 @@
 ---
 layout: about
-title: about
+title: About
 permalink: /
-subtitle: Sanchez.Essmer@gmail.com          (347) 313-8530 # <a href='#'>Affiliations</a>. Address. Contacts. Moto. Etc.
-email: 
+subtitle: (347) 313-8530 # <a href='#'>Affiliations</a>. Address. Contacts. Moto. Etc.
+email: Sanchez.Essmer@gmail.com  
 
 profile:
   align: right

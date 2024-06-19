@@ -2,13 +2,16 @@
 # used as the info page
 layout: page
 permalink: /teaching/
-title: info
-description: Upcoming class schedule will be posted here.
+title: Info
+description: Accepting Service Requests. Fill out the google form. Aceptando solicitudes de servicio. Complete el formulario de Google.
 nav: true
 nav_order: 3
 display_categories: [A,B]
 horizontal: false
 ---
+
+Learn more about [my services]({{ site.baseurl }}/blog/2024/my-services/).
+Conozca el tipo de [servicios que ofrezco]({{ site.baseurl }}/blog/2024/my-services/).
 
 <!-- pages/projects.md -->
 <div class="projects">
